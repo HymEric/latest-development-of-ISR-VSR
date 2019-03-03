@@ -14,12 +14,12 @@ If you think it is useful, please star it adn spread. Thank you.
 <table>
     <tr>
         <th>abbreviation</th>
-		<th>full name</th>
-		<th>published</th>
-		<th>code</th>
-		<th>description</th>
-		<th>keywords</th>
-		<th>in undergraduationt*</th>
+	<th>full name</th>
+	<th>published</th>
+	<th>code</th>
+	<th>description</th>
+	<th>keywords</th>
+	<th>in undergraduationt*</th>
     </tr>
     <tr>
         <td>SRCNN</td>
@@ -62,7 +62,8 @@ If you think it is useful, please star it adn spread. Thank you.
 		<td>"residual network
 	Deep"</td>
         <td>*</td>
-    </tr><tr>
+    </tr>
+    <tr>
         <td>DRCN</td>
         <td>Deeply-Recursive Convolutional Network for Image Super-Resolution</td>
         <td>CVPR2016</td>
@@ -74,8 +75,7 @@ If you think it is useful, please star it adn spread. Thank you.
 		Recursive Neural Network"</td>
         <td>*</td>
     </tr>
-
-	<tr>
+    <tr>
         <td>RED</td>
         <td>Image Restoration Using Convolutional Auto-encoders with Symmetric Skip Connections</td>
         <td>NIPS2016</td>
@@ -84,8 +84,7 @@ If you think it is useful, please star it adn spread. Thank you.
 		<td>Encoder-decoder</td>
         <td>*</td>
     </tr>
-	
-	<tr>
+    <tr>
         <td>DRRN</td>
         <td>Image Super-Resolution via Deep Recursive Residual Network</td>
         <td>CVPR2017</td>
@@ -94,8 +93,7 @@ If you think it is useful, please star it adn spread. Thank you.
 		<td>"residual networkrecursive"</td>
         <td>*</td>
     </tr>
-
-	<tr>
+    <tr>
         <td>LapSRN</td>
         <td>Deep Laplacian Pyramid Networks for Fast and Accurate Super-Resolution</td>
         <td>CVPR2017</td>
@@ -106,8 +104,7 @@ If you think it is useful, please star it adn spread. Thank you.
 		<td>"Pyramid networkHuber loss"</td>
         <td>*</td>
     </tr>
-
-	<tr>
+<tr>
         <td>SRDenseNet</td>
         <td>Image Super-Resolution Using Dense Skip Connections </td>
         <td>ICCV2017</td>
@@ -118,7 +115,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>SRGAN</td>
         <td>Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network</td>
         <td>CVPR2017</td>
@@ -136,7 +133,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>EDSR(workshop)</td>
         <td>Enhanced Deep Residual Networks for Single Image Super-Resolution</td>
         <td>CVPR2017</td>
@@ -148,7 +145,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>WDSR</td>
         <td>Wide Activation for Efficient and Accurate Image Super-Resolution</td>
         <td>arxiv2018</td>
@@ -158,7 +155,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>SRMD</td>
         <td>Learning a Single Convolutional Super-Resolution Network for Multiple Degradations</td>
         <td>CVPR2018</td>
@@ -169,7 +166,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>RDN(oral)</td>
         <td>Residual Dense Network for Image Super-Resolution(CVPR 2018 Spotlight</td>
         <td>CVPR2018</td>
@@ -181,7 +178,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>DBPN</td>
         <td>Deep Back-Projection Networks For Super-Resolution</td>
         <td>CVPR2018</td>
@@ -192,7 +189,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>ZSSR</td>
         <td>“Zero-Shot” Super-Resolution using Deep Internal Learning(2018 CVPR</td>
         <td>CVPR2018</td>
@@ -203,7 +200,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>SFTGAN</td>
         <td>Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform</td>
         <td>CVPR2018</td>
@@ -214,7 +211,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>EUSR(workshop)</td>
         <td>Deep Residual Network with Enhanced Upscaling Module for Super-Resolution</td>
         <td>CVPR2018</td>
@@ -224,7 +221,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>CARN</td>
         <td>Fast, Accurate, and Lightweight Super-Resolution with Cascading Residual Network </td>
         <td>ECCV2018</td>
@@ -235,7 +232,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>GAN_degradation</td>
         <td>To learn image super-resolution, use a GAN to learn how to do image degradation first </td>
         <td>ECCV2018</td>
@@ -245,7 +242,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>EPSR(workshop)</td>
         <td>Analyzing Perception-Distortion Tradeoff using Enhanced Perceptual Super-resolution Network</td>
         <td>ECCV2018</td>
@@ -255,7 +252,7 @@ If you think it is useful, please star it adn spread. Thank you.
         <td>*</td>
     </tr>
 
-	<tr>
+<tr>
         <td>Updating</td>
         <td>...</td>
         <td>...</td>
@@ -278,7 +275,7 @@ If you think it is useful, please star it adn spread. Thank you.
 		<th>in undergraduation*</th>
     </tr>
 
-	<tr>
+<tr>
 		<td>BRCN</td>
 		<td>Bidirectional Recurrent Convolutional Networks for Multi-Frame Super-Resolution</td>
 		<td>NIPS2015</td>
@@ -290,7 +287,7 @@ If you think it is useful, please star it adn spread. Thank you.
 		<td>*</td>
 	</tr>
 
-	<tr>
+<tr>
 		<td>VESPCN</td>
 		<td>Real-Time Video Super-Resolution with Spatio-Temporal Networks and Motion Compensation</td>
 		<td>CVPR2017</td>
@@ -304,7 +301,7 @@ If you think it is useful, please star it adn spread. Thank you.
 		<td>*</td>
 	</tr>
 
-	<tr>
+<tr>
 		<td>SPMC</td>
 		<td>Detail-revealing Deep Video Super-resolution</td>
 		<td>ICCV2017</td>
@@ -316,7 +313,7 @@ If you think it is useful, please star it adn spread. Thank you.
 		<td>*</td>
 	</tr>
 
-	<tr>
+<tr>
 		<td>BRCN</td>
 		<td>Bidirectional Recurrent Convolutional Networks for Multi-Frame Super-Resolution</td>
 		<td>NIPS2015</td>
@@ -328,7 +325,7 @@ If you think it is useful, please star it adn spread. Thank you.
 		<td>*</td>
 	</tr>
 
-	<tr>
+<tr>
 		<td>FRVSR</td>
 		<td>Frame-Recurrent Video Super-Resolution</td>
 		<td>CVPR2018</td>
@@ -346,7 +343,7 @@ If you think it is useful, please star it adn spread. Thank you.
 		<td>*</td>
 	</tr>
 
-	<tr>
+<tr>
 		<td>DUF</td>
 		<td>Deep Video Super-Resolution Network Using Dynamic Upsampling Filters Without Explicit Motion Compensation</td>
 		<td>CVPR2018</td>
