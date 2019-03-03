@@ -377,8 +377,8 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 arXiv2019: ["Deep Learning for Image Super-resolution: A Survey"](https://arxiv.org/abs/1902.06068)
 
 ## Author ##
-EricHym (Yongming He)
-Interests: CV and Deep Learning
+EricHym (Yongming He)  
+Interests: CV and Deep Learning  
 If you have or find any problems, this is my email: yongminghe_eric@qq.com. And I'm glad to reply it. Thanks.  
 
 Anyone can make contrbutions!
