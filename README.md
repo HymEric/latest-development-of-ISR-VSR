@@ -7,7 +7,7 @@ There are some useful repositories thst help me a lot：
 
 Thanks them. But above repositories are not completely, and most of ECCV2018 and CVPR2018 are not listed as well as my under-graduation project is doing, therefore, this repositories exists. (help me and you) I help it will be updating under our contributions.
 
-If you think it is useful, please star it adn spread. Thank you.  
+If you think it is useful, please star it and spread it. Thank you.  
 (Although the table is ugly)
 
 ## ISR: ##
