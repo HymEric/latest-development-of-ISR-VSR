@@ -251,6 +251,15 @@ If you think it is useful, please star it and spread it. Thank you.
 		<td>...</td>
         <td>*</td>
     </tr>
+<tr>
+        <td>SRFBN</td>
+        <td>Feedback Network for Image Super-Resolution</td>
+        <td>CVPR2019</td>
+		<td>pytorch:https://github.com/Paper99/SRFBN_CVPR19</td>
+        <td>feedback and a lot of comparation</td>
+		<td>feedback</td>
+        <td>/</td>
+    </tr>
 
 <tr>
         <td>Updating</td>
