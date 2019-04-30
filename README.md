@@ -366,6 +366,16 @@ If you think it is useful, please star it and spread it. Thank you.
 		Residual Learning"</td>
 		<td>*</td>
 	</tr>
+<tr>
+        <td>RBPN</td>
+        <td>Recurrent Back-Projection Network for Video Super-Resolution</td>
+        <td>CVPR2019</td>
+		<td>Pytorch：https://github.com/alterzero/RBPN-PyTorch</td>
+        <td>...</td>
+		<td>recurrent
+encoder-decoder module</td>
+        <td>/</td>
+    </tr>
 
 <tr>
         <td>Updating</td>
