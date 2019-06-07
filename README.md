@@ -378,6 +378,16 @@ encoder-decoder module</td>
     </tr>
 
 <tr>
+        <td>EDVR</td>
+        <td>EDVR: Video Restoration with Enhanced Deformable Convolutional Networks</td>
+        <td>CVPR2019</td>
+		<td>Pytorch: https://github.com/xinntao/EDVR</td>
+        <td>proposed two specify modules: PCD and TSA. PCD is for alignment and STA is for fusion. With deformable convolution, self-ensemble and two-stage redfine, it  wins all four tracks in the NTIRE19 Challenges for Video</td>
+		<td>PCD:Pyramid, Cascading and Deformable (PCD) alignment module, TSA:Temporal and Spatial Attention fusion module</td>
+        <td>/</td>
+    </tr>
+    
+<tr>
         <td>Updating</td>
         <td>...</td>
         <td>...</td>
@@ -389,7 +399,7 @@ encoder-decoder module</td>
 </table>
 
 
-## Metrics dispute##
+## Metrics dispute ##
 Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zhihu.com/?target=https%3A//arxiv.org/abs/1711.06077)
 
 ## Latest survey ##
