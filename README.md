@@ -262,7 +262,17 @@ If you think it is useful, please star it and spread it. Thank you.
     </tr>
 
 <tr>
-        <td>Updating</td>
+        <td>RankSRGAN</td>
+        <td>RankSRGAN: Generative Adversarial Networks with Ranker for Image Super- Resolution</td>
+        <td>ICCV2019</td>
+		<td>github:https://github.com/WenlongZhang0724/RankSRGANfocus</td>
+        <td>focus on perceptual quality, and new method to use perceptual metrics named Ranker</td>
+		<td>RankerRanker, RAN</td>
+        <td>/</td>
+    </tr>
+    
+<tr>
+        <td>RankSRGAN</td>
         <td>...</td>
         <td>...</td>
 		<td>...</td>
@@ -270,6 +280,7 @@ If you think it is useful, please star it and spread it. Thank you.
 		<td>...</td>
         <td>/</td>
     </tr>
+
 </table>
 
 ## VSR ##
