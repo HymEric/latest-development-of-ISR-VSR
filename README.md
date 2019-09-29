@@ -272,6 +272,16 @@ If you think it is useful, please star it and spread it. Thank you.
     </tr>
     
 <tr>
+        <td>IMDN</td>
+        <td>Lightweight Image Super-Resolution with Information Multi-distillation Network</td>
+        <td>ACM MM2019</td>
+		<td>github: https://github.com/Zheng222/IMDN</td>
+        <td>todo:</td>
+		<td>...</td>
+        <td>/</td>
+    </tr>
+
+<tr>
         <td>RankSRGAN</td>
         <td>...</td>
         <td>...</td>
