@@ -2,7 +2,7 @@
 Mainly ICCV, ECCV and CVPR about ISR and VSR, especially lasted two years developments.
 
 There are some useful repositories thst help me a lot：  
-1、[A collection of state-of-the-art video or single-image super-resolution architectures, reimplemented in tensorflow.](https://github.com/LoSealL/VideoSuperResolution) which has most great papers/models about ISR and VSR. Includ some useful tools: aome model pre-trained weights, Link of datasets, VSR package which offers a training and data processing framework based on TF.  
+1、[A collection of state-of-the-art video or single-image super-resolution architectures, reimplemented in tensorflow.](https://github.com/LoSealL/VideoSuperResolution) which has most great papers/models about ISR and VSR. Include some useful tools: some models with pre-trained weights, link of datasets, VSR package which offers a training and data processing framework based on TF or pytorch.  
 2、[Video-Super-Resolution](https://github.com/flyywh/Video-Super-Resolution) which has some VSR paper's informations.
 
 Thanks them. But above repositories are not completely, and most of ECCV2018 and CVPR2018 are not listed as well as my under-graduation project is doing, therefore, this repositories exists. (help me and you) I help it will be updating under our contributions.
