@@ -1,6 +1,12 @@
 # Latest-development-of-ISR-VSR #
 Mainly ICCV, ECCV and CVPR about ISR and VSR, especially lasted two years developments.
 
+<!-- TOC -->
+
+- [-Update-New] [Unsupervised Super-resolution Method](#Unsupervised-Super-resolution-Method)
+
+<!-- TOC -->
+
 There are some useful repositories thst help me a lot：  
 1、[A collection of state-of-the-art video or single-image super-resolution architectures, reimplemented in tensorflow.](https://github.com/LoSealL/VideoSuperResolution) which has most great papers/models about ISR and VSR. Include some useful tools: some models with pre-trained weights, link of datasets, VSR package which offers a training and data processing framework based on TF or pytorch.  
 2、[Video-Super-Resolution](https://github.com/flyywh/Video-Super-Resolution) which has some VSR paper's informations.
@@ -433,6 +439,14 @@ arXiv2019: ["Deep Learning for Image Super-resolution: A Survey"](https://arxiv.
 4. DUpsample: ["Decoders Matter for Semantic Segmentation: Data-Dependent Decoding Enables Flexible Feature Aggregation"](https://arxiv.org/abs/1903.02120)
 5. carafe: ["CARAFE- Content-Aware ReAssembly of FEatures"](https://arxiv.org/abs/1905.02188)
 6. meta-SR: ["Meta-SR-A Magnification-Arbitrary Network for Super-Resolution"](https://arxiv.org/abs/1903.00875)
+
+## Unsupervised Super-resolution Method ##
+1. [“Zero-Shot” Super-Resolution using Deep Internal Learning](http://openaccess.thecvf.com/content_cvpr_2018/html/Shocher_Zero-Shot_Super-Resolution_Using_CVPR_2018_paper.html), CVPR2018
+2. [Unsupervised image super-resolution using cycle-in-cycle generative adversarial networks](http://openaccess.thecvf.com/content_cvpr_2018_workshops/w13/html/Yuan_Unsupervised_Image_Super-Resolution_CVPR_2018_paper.html), CVPRW2018
+3. [Adversarial training with cycle consistency for unsupervised super-resolution in endomicroscopy](https://www.sciencedirect.com/science/article/pii/S1361841518305966), Medical image analysis 2019
+4. [Self-Supervised Fine-tuning for Image Enhancement of Super-Resolution Deep Neural Networks](https://arxiv.org/abs/1912.12879), arXiv2019
+5. [Unsupervised Learning for Real-World Super-Resolution](https://arxiv.org/abs/1909.09629), arXiv2019
+6. [Unsupervised Single-Image Super-Resolution with Multi-Gram Loss](https://www.mdpi.com/2079-9292/8/8/833), MDPI2019
 
 ## Author ##
 EricHym (Yongming He)  
