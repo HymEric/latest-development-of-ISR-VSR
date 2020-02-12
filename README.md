@@ -3,7 +3,7 @@ Mainly ICCV, ECCV and CVPR about ISR and VSR, especially lasted two years develo
 
 <!-- TOC -->
 
-- [-Update-New] [Unsupervised Super-resolution Method](#Unsupervised-Super-resolution-Method)
+![](https://img.shields.io/badge/updated-today-brightgreen.svg) [***Unsupervised Super-resolution Method***](#Unsupervised-Super-resolution-Method)
 
 <!-- TOC -->
 
