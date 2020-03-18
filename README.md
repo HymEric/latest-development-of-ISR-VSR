@@ -3,7 +3,14 @@ Mainly ICCV, ECCV and CVPR about ISR and VSR, especially lasted two years develo
 
 <!-- TOC -->
 
-![](https://img.shields.io/badge/updated-today-brightgreen.svg) [***Unsupervised Super-resolution Method***](#Unsupervised-Super-resolution-Method)
+- [1. ISR](#-ISR)
+- [2. VSR](#-VSR)
+- [3. Metrics dispute](#Metrics-dispute)
+- [4. Latest survey](#Latest-survey) 
+- [5. Upscale method](#Upscale-method)
+- [6. Unsupervised Super-resolution Method](#Unsupervised-Super-resolution-Method)
+
+[***Unsupervised Super-resolution Method***](#Unsupervised-Super-resolution-Method)
 
 <!-- TOC -->
 
@@ -16,7 +23,7 @@ Thanks them. But above repositories are not completely, and most of ECCV2018 and
 If you think it is useful, please star it and spread it. Thank you.  
 (Although the table is ugly)
 
-## ISR: ##
+## ISR
 <table>
     <tr>
         <th>abbreviation</th>
@@ -316,7 +323,7 @@ If you think it is useful, please star it and spread it. Thank you.
 
 </table>
 
-## VSR ##
+## VSR
 <table>
 	<tr>
         <th>abbreviation</th>
@@ -443,13 +450,13 @@ encoder-decoder module</td>
 </table>
 
 
-## Metrics dispute ##
+## Metrics dispute
 Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zhihu.com/?target=https%3A//arxiv.org/abs/1711.06077)
 
-## Latest survey ##
+## Latest survey
 arXiv2019: ["Deep Learning for Image Super-resolution: A Survey"](https://arxiv.org/abs/1902.06068)
 
-## Upscale method ##
+## Upscale method
 1. Dconvolution: ["Deconvolutional networks"](https://ftp.cs.nyu.edu/~fergus/papers/matt_cvpr10.pdf)
 2. sub-pixel: ["Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network"](https://arxiv.org/abs/1609.05158)
 3. Unpooling: ["Visualizing and understanding convolutional networks"](https://arxiv.org/abs/1311.2901)
@@ -457,7 +464,7 @@ arXiv2019: ["Deep Learning for Image Super-resolution: A Survey"](https://arxiv.
 5. carafe: ["CARAFE- Content-Aware ReAssembly of FEatures"](https://arxiv.org/abs/1905.02188)
 6. meta-SR: ["Meta-SR-A Magnification-Arbitrary Network for Super-Resolution"](https://arxiv.org/abs/1903.00875)
 
-## Unsupervised Super-resolution Method ##
+## Unsupervised Super-resolution Method
 1. [“Zero-Shot” Super-Resolution using Deep Internal Learning](http://openaccess.thecvf.com/content_cvpr_2018/html/Shocher_Zero-Shot_Super-Resolution_Using_CVPR_2018_paper.html), CVPR2018
 2. [Unsupervised image super-resolution using cycle-in-cycle generative adversarial networks](http://openaccess.thecvf.com/content_cvpr_2018_workshops/w13/html/Yuan_Unsupervised_Image_Super-Resolution_CVPR_2018_paper.html), CVPRW2018
 3. [Adversarial training with cycle consistency for unsupervised super-resolution in endomicroscopy](https://www.sciencedirect.com/science/article/pii/S1361841518305966), Medical image analysis 2019
@@ -465,7 +472,7 @@ arXiv2019: ["Deep Learning for Image Super-resolution: A Survey"](https://arxiv.
 5. [Unsupervised Learning for Real-World Super-Resolution](https://arxiv.org/abs/1909.09629), arXiv2019
 6. [Unsupervised Single-Image Super-Resolution with Multi-Gram Loss](https://www.mdpi.com/2079-9292/8/8/833), MDPI2019
 
-## Author ##
+## Author
 EricHym (Yongming He)  
 Interests: CV and Deep Learning  
 If you have or find any problems, this is my email: yongminghe@zju.edu.cn. And I'm glad to reply it. Thanks.  
