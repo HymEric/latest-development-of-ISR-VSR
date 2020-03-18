@@ -247,7 +247,15 @@ If you think it is useful, please star it and spread it. Thank you.
 		<td>mainly face test</td>
         <td>*</td>
     </tr>
-
+<tr>
+        <td>RCAN</td>
+        <td>Image Super-Resolution Using Very Deep Residual Channel Attention Networks</td>
+        <td>ECCV2018</td>
+		<td>pytorch: https://github.com/yulunzhang/RCAN</td>
+        <td>very deep residual block with channel attention using several skip connection and channel weight</td>
+		<td>Deep, Residual, Channel Attention</td>
+        <td>/</td>
+    </tr>
 <tr>
         <td>EPSR(workshop)</td>
         <td>Analyzing Perception-Distortion Tradeoff using Enhanced Perceptual Super-resolution Network</td>
@@ -264,6 +272,15 @@ If you think it is useful, please star it and spread it. Thank you.
 		<td>pytorch:https://github.com/Paper99/SRFBN_CVPR19</td>
         <td>feedback and a lot of comparation</td>
 		<td>feedback</td>
+        <td>/</td>
+    </tr>
+<tr>
+        <td>zoom-learn-zoom</td>
+        <td>Zoom to Learn, Learn to Zoom</td>
+        <td>CVPR2019</td>
+		<td>tensorflow: https://github.com/ceciliavision/zoom-learn-zoom</td>
+        <td>new direction for SR-RAW datasets and new CoBi loss function for alignment</td>
+		<td>SR-RAW dataset and CoBi loss</td>
         <td>/</td>
     </tr>
 
@@ -288,7 +305,7 @@ If you think it is useful, please star it and spread it. Thank you.
     </tr>
 
 <tr>
-        <td>RankSRGAN</td>
+        <td>...</td>
         <td>...</td>
         <td>...</td>
 		<td>...</td>
