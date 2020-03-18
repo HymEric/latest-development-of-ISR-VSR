@@ -1,16 +1,14 @@
-# Latest-development-of-ISR-VSR #
-Mainly ICCV, ECCV and CVPR about ISR and VSR, especially lasted two years developments.
+# Latest-development-of-ISR-VSR
+**Mainly ICCV, ECCV and CVPR about ISR and VSR, especially lasted two years developments.**
 
 <!-- TOC -->
 
-- [1. ISR](#-ISR)
-- [2. VSR](#-VSR)
+- [1. ISR](#ISR)
+- [2. VSR](#VSR)
 - [3. Metrics dispute](#Metrics-dispute)
 - [4. Latest survey](#Latest-survey) 
 - [5. Upscale method](#Upscale-method)
-- [6. Unsupervised Super-resolution Method](#Unsupervised-Super-resolution-Method)
-
-[***Unsupervised Super-resolution Method***](#Unsupervised-Super-resolution-Method)
+- [6. ***Unsupervised Super-resolution Method***](#Unsupervised-Super-resolution-Method)
 
 <!-- TOC -->
 
