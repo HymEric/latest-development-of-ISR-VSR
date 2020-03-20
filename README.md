@@ -285,10 +285,38 @@ If you think it is useful, please star it and spread it. Thank you.
         <td>CVPR2019</td>
 		<td>tensorflow: https://github.com/ceciliavision/zoom-learn-zoom</td>
         <td>new direction for SR-RAW datasets and new CoBi loss function for alignment</td>
-		<td>SR-RAW dataset and CoBi loss</td>
+		<td>SR-RAW dataset and CoBi loss, real-word</td>
         <td>/</td>
     </tr>
-
+    
+<tr>
+        <td>CameraSR</td>
+        <td>Camera Lens Super-Resolution</td>
+        <td>CVPR2019</td>
+		<td>tensorflow: https://github.com/ngchc/CameraSR</td>
+        <td>Create City100 Dataset for real-word application</td>
+		<td>real-word, City100 dataset</td>
+        <td>/</td>
+    </tr>
+<tr>
+        <td>RealSR</td>
+        <td>Toward Real-World Single Image Super-Resolution: A New Benchmark and A New Model</td>
+        <td>ICCV2019</td>
+		<td>caffe: https://github.com/csjcai/RealSR</td>
+        <td>New RealSR datasets more flexible and convenient to use</td>
+		<td>RealSR dataset, real-word, LP-KPN</td>
+        <td>/</td>
+    </tr>
+<tr>
+        <td>Simulated-to-Real Gap</td>
+        <td>Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Reslution on Real Data </td>
+        <td>TPAMI2019</td>
+		<td>/</td>
+        <td>hardware binning method</td>
+		<td>hardware binning, maybe the method older for it's journal</td>
+        <td>/</td>
+    </tr>
+    
 <tr>
         <td>RankSRGAN</td>
         <td>RankSRGAN: Generative Adversarial Networks with Ranker for Image Super- Resolution</td>
