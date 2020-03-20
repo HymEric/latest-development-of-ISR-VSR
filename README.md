@@ -313,7 +313,7 @@ If you think it is useful, please star it and spread it. Thank you.
         <td>TPAMI2019</td>
 		<td>/</td>
         <td>hardware binning method</td>
-		<td>hardware binning, maybe the method older for it's journal</td>
+		<td>hardware binning, real-word, maybe the method older for it's journal</td>
         <td>/</td>
     </tr>
     
@@ -323,7 +323,7 @@ If you think it is useful, please star it and spread it. Thank you.
         <td>ICCV2019</td>
 		<td>github:https://github.com/WenlongZhang0724/RankSRGANfocus</td>
         <td>focus on perceptual quality, and new method to use perceptual metrics named Ranker</td>
-		<td>RankerRanker, RAN</td>
+		<td>Ranker, GAN</td>
         <td>/</td>
     </tr>
     
