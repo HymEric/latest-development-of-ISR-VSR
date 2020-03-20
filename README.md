@@ -1,5 +1,5 @@
 # Latest-development-of-ISR-VSR
-**Mainly ICCV, ECCV and CVPR about ISR and VSR, especially lasted two years developments.**
+**[Updating...] Mainly ICCV, ECCV and CVPR about ISR and VSR, especially lasted two years developments.**
 
 <!-- TOC -->
 
