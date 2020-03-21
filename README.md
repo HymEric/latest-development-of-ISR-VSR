@@ -9,6 +9,7 @@
 - [4. Latest survey](#Latest-survey) 
 - [5. Upscale method](#Upscale-method)
 - [6. ***Unsupervised Super-resolution Method***](#Unsupervised-Super-resolution-Method)
+- [7. ***Real-Word Image Super-Resolution***](#Real-Word-Image-Super-Resolution)
 
 <!-- TOC -->
 
@@ -497,6 +498,18 @@ arXiv2019: ["Deep Learning for Image Super-resolution: A Survey"](https://arxiv.
 4. [Self-Supervised Fine-tuning for Image Enhancement of Super-Resolution Deep Neural Networks](https://arxiv.org/abs/1912.12879), arXiv2019
 5. [Unsupervised Learning for Real-World Super-Resolution](https://arxiv.org/abs/1909.09629), arXiv2019
 6. [Unsupervised Single-Image Super-Resolution with Multi-Gram Loss](https://www.mdpi.com/2079-9292/8/8/833), MDPI2019
+
+## Real-Word Image Super-Resolution
+ - **Based on the proposed HR-LR Image Pairs**
+1. [Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Reslution on Real Data](https://arxiv.org/abs/1809.06420v2), TPAMI2019
+2. [Toward Real-World Single Image Super-Resolution: A New Benchmark and A New Model](http://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Toward_Real-World_Single_Image_Super-Resolution_A_New_Benchmark_and_a_ICCV_2019_paper.html),ICCV2019
+3. [Camera Lens Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Camera_Lens_Super-Resolution_CVPR_2019_paper), CVPR2019 
+4. [Zoom to Learn, Learn to Zoom](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Zoom_to_Learn_Learn_to_Zoom_CVPR_2019_paper.html), CVPR2019 
+- **Based on the simulated degradation method**
+1. [Blind Super-Resolution with Iterative Kernel Corrections](http://openaccess.thecvf.com/content_CVPR_2019/html/Gu_Blind_Super-Resolution_With_Iterative_Kernel_Correction_CVPR_2019_paper.html), CVPR2019
+2. [Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels],(http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Plug-And-Play_Super-Resolution_for_Arbitrary_Blur_Kernels_CVPR_2019_paper.html), CVPR2019
+3. [Blind Super-Resolution Kernel Estimation using an Internal-GAN](http://papers.nips.cc/paper/8321-blind-super-resolution-kernel-estimation-using-an-internal-gan), NeurIPS2019
+4. [Kernel Modeling Super-Resolution on Real Low-Resolution Images](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhou_Kernel_Modeling_Super-Resolution_on_Real_Low-Resolution_Images_ICCV_2019_paper.html), ICCV2019
 
 ## Author
 EricHym (Yongming He)  
