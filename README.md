@@ -507,7 +507,7 @@ arXiv2019: ["Deep Learning for Image Super-resolution: A Survey"](https://arxiv.
 4. [Zoom to Learn, Learn to Zoom](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Zoom_to_Learn_Learn_to_Zoom_CVPR_2019_paper.html), CVPR2019 
 - **Based on the simulated degradation method**
 1. [Blind Super-Resolution with Iterative Kernel Corrections](http://openaccess.thecvf.com/content_CVPR_2019/html/Gu_Blind_Super-Resolution_With_Iterative_Kernel_Correction_CVPR_2019_paper.html), CVPR2019
-2. [Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels],(http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Plug-And-Play_Super-Resolution_for_Arbitrary_Blur_Kernels_CVPR_2019_paper.html), CVPR2019
+2. [Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Plug-And-Play_Super-Resolution_for_Arbitrary_Blur_Kernels_CVPR_2019_paper.html), CVPR2019
 3. [Blind Super-Resolution Kernel Estimation using an Internal-GAN](http://papers.nips.cc/paper/8321-blind-super-resolution-kernel-estimation-using-an-internal-gan), NeurIPS2019
 4. [Kernel Modeling Super-Resolution on Real Low-Resolution Images](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhou_Kernel_Modeling_Super-Resolution_on_Real_Low-Resolution_Images_ICCV_2019_paper.html), ICCV2019
 
