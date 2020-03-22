@@ -3,14 +3,16 @@
 
 <!-- TOC -->
 
-- [1. ISR](#ISR)
-- [2. VSR](#VSR)
-- [3. Metrics dispute](#Metrics-dispute)
-- [4. Latest survey](#Latest-survey) 
-- [5. Upscale method](#Upscale-method)
-- [6. ***Unsupervised Super-resolution Method***](#Unsupervised-Super-resolution-Method)
-- [7. ***Real-Word Image Super-Resolution***](#Real-Word-Image-Super-Resolution)
-
+- [1. Metrics dispute](#Metrics-dispute)
+- [2. Latest survey](#Latest-survey) 
+- [3. Upscale method](#Upscale-method)
+- [4. ***Unsupervised Super-resolution Method***](#Unsupervised-Super-resolution-Method)
+- [5. ***Real-Word Image Super-Resolution***](#Real-Word-Image-Super-Resolution)
+- [6. ***Stereo Image Super-Resolution***](#Stereo-Image-Super-Resolution)
+- [7. ISR](#ISR)
+- [8. VSR](#VSR)
+<!-- meta-data related -->
+<!-- knowledge distillation related -->
 <!-- TOC -->
 
 There are some useful repositories thst help me a lot：  
@@ -21,6 +23,50 @@ Thanks them. But above repositories are not completely, and most of ECCV2018 and
 
 If you think it is useful, please star it and spread it. Thank you.  
 (Although the table is ugly)
+
+## Metrics dispute
+Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zhihu.com/?target=https%3A//arxiv.org/abs/1711.06077)
+
+## Latest survey
+arXiv2019: ["Deep Learning for Image Super-resolution: A Survey"](https://arxiv.org/abs/1902.06068)
+
+## Upscale method
+1. Dconvolution: ["Deconvolutional networks"](https://ftp.cs.nyu.edu/~fergus/papers/matt_cvpr10.pdf)
+2. sub-pixel: ["Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network"](https://arxiv.org/abs/1609.05158)
+3. Unpooling: ["Visualizing and understanding convolutional networks"](https://arxiv.org/abs/1311.2901)
+4. DUpsample: ["Decoders Matter for Semantic Segmentation: Data-Dependent Decoding Enables Flexible Feature Aggregation"](https://arxiv.org/abs/1903.02120)
+5. carafe: ["CARAFE- Content-Aware ReAssembly of FEatures"](https://arxiv.org/abs/1905.02188)
+6. meta-SR: ["Meta-SR-A Magnification-Arbitrary Network for Super-Resolution"](https://arxiv.org/abs/1903.00875)
+
+## Unsupervised Super-resolution Method
+1. [“Zero-Shot” Super-Resolution using Deep Internal Learning](http://openaccess.thecvf.com/content_cvpr_2018/html/Shocher_Zero-Shot_Super-Resolution_Using_CVPR_2018_paper.html), CVPR2018
+2. [Unsupervised image super-resolution using cycle-in-cycle generative adversarial networks](http://openaccess.thecvf.com/content_cvpr_2018_workshops/w13/html/Yuan_Unsupervised_Image_Super-Resolution_CVPR_2018_paper.html), CVPRW2018
+3. [Adversarial training with cycle consistency for unsupervised super-resolution in endomicroscopy](https://www.sciencedirect.com/science/article/pii/S1361841518305966), Medical image analysis 2019
+4. [Self-Supervised Fine-tuning for Image Enhancement of Super-Resolution Deep Neural Networks](https://arxiv.org/abs/1912.12879), arXiv2019
+5. [Unsupervised Learning for Real-World Super-Resolution](https://arxiv.org/abs/1909.09629), arXiv2019
+6. [Unsupervised Single-Image Super-Resolution with Multi-Gram Loss](https://www.mdpi.com/2079-9292/8/8/833), MDPI2019
+
+## Real-Word Image Super-Resolution
+ - **Based on the proposed HR-LR Image Pairs**
+1. [Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Reslution on Real Data](https://arxiv.org/abs/1809.06420v2), TPAMI2019
+2. [Toward Real-World Single Image Super-Resolution: A New Benchmark and A New Model](http://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Toward_Real-World_Single_Image_Super-Resolution_A_New_Benchmark_and_a_ICCV_2019_paper.html),ICCV2019
+3. [Camera Lens Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Camera_Lens_Super-Resolution_CVPR_2019_paper), CVPR2019 
+4. [Zoom to Learn, Learn to Zoom](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Zoom_to_Learn_Learn_to_Zoom_CVPR_2019_paper.html), CVPR2019 
+- **Based on the simulated degradation method**
+1. [Blind Super-Resolution with Iterative Kernel Corrections](http://openaccess.thecvf.com/content_CVPR_2019/html/Gu_Blind_Super-Resolution_With_Iterative_Kernel_Correction_CVPR_2019_paper.html), CVPR2019
+2. [Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Plug-And-Play_Super-Resolution_for_Arbitrary_Blur_Kernels_CVPR_2019_paper.html), CVPR2019
+3. [Blind Super-Resolution Kernel Estimation using an Internal-GAN](http://papers.nips.cc/paper/8321-blind-super-resolution-kernel-estimation-using-an-internal-gan), NeurIPS2019
+4. [Kernel Modeling Super-Resolution on Real Low-Resolution Images](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhou_Kernel_Modeling_Super-Resolution_on_Real_Low-Resolution_Images_ICCV_2019_paper.html), ICCV2019
+
+## Stereo Image Super-Resolution
+1. [Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior](http://openaccess.thecvf.com/content_cvpr_2018/html/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.html), CVPR2018
+<!-- StereoSR,one left LR and one right LR as inputs, but 64 copies of right LR before to luminance net, first learn luminance then to map to RGB by chrominance net, YCbCr to RGB -->
+2. [Learning Parallax Attention for Stereo Image Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Wang_Learning_Parallax_Attention_for_Stereo_Image_Super-Resolution_CVPR_2019_paper.html), CVPR2019
+<!-- PASSRnet, proposed PAM (parallax attention modual), new Flicker1024 datasets, extend to another: Parallax-based Spatial and Channel Attention Stereo SR network paper by it -->
+3. [Stereoscopic Image Super‑Resolution with Stereo Consistent Feature](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-SongW.10348.pdf), AAAI2020 oral
+<!-- SPAMnet, Self and Parallax Attention Mechanism (SPAM), new loss: Stereo-consistency Loss for stereo consistence, disparity map-->
+4. [A Stereo Attention Module for Stereo Image Super-Resolution](https://ieeexplore.ieee.org/abstract/document/8998204/), SPL2020
+<!-- SAM (Stereo attention module), SAM can inset to any SR model, fine-tune after inserting SAM -->
 
 ## ISR
 <table>
@@ -476,40 +522,6 @@ encoder-decoder module</td>
     </tr>
 </table>
 
-
-## Metrics dispute
-Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zhihu.com/?target=https%3A//arxiv.org/abs/1711.06077)
-
-## Latest survey
-arXiv2019: ["Deep Learning for Image Super-resolution: A Survey"](https://arxiv.org/abs/1902.06068)
-
-## Upscale method
-1. Dconvolution: ["Deconvolutional networks"](https://ftp.cs.nyu.edu/~fergus/papers/matt_cvpr10.pdf)
-2. sub-pixel: ["Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network"](https://arxiv.org/abs/1609.05158)
-3. Unpooling: ["Visualizing and understanding convolutional networks"](https://arxiv.org/abs/1311.2901)
-4. DUpsample: ["Decoders Matter for Semantic Segmentation: Data-Dependent Decoding Enables Flexible Feature Aggregation"](https://arxiv.org/abs/1903.02120)
-5. carafe: ["CARAFE- Content-Aware ReAssembly of FEatures"](https://arxiv.org/abs/1905.02188)
-6. meta-SR: ["Meta-SR-A Magnification-Arbitrary Network for Super-Resolution"](https://arxiv.org/abs/1903.00875)
-
-## Unsupervised Super-resolution Method
-1. [“Zero-Shot” Super-Resolution using Deep Internal Learning](http://openaccess.thecvf.com/content_cvpr_2018/html/Shocher_Zero-Shot_Super-Resolution_Using_CVPR_2018_paper.html), CVPR2018
-2. [Unsupervised image super-resolution using cycle-in-cycle generative adversarial networks](http://openaccess.thecvf.com/content_cvpr_2018_workshops/w13/html/Yuan_Unsupervised_Image_Super-Resolution_CVPR_2018_paper.html), CVPRW2018
-3. [Adversarial training with cycle consistency for unsupervised super-resolution in endomicroscopy](https://www.sciencedirect.com/science/article/pii/S1361841518305966), Medical image analysis 2019
-4. [Self-Supervised Fine-tuning for Image Enhancement of Super-Resolution Deep Neural Networks](https://arxiv.org/abs/1912.12879), arXiv2019
-5. [Unsupervised Learning for Real-World Super-Resolution](https://arxiv.org/abs/1909.09629), arXiv2019
-6. [Unsupervised Single-Image Super-Resolution with Multi-Gram Loss](https://www.mdpi.com/2079-9292/8/8/833), MDPI2019
-
-## Real-Word Image Super-Resolution
- - **Based on the proposed HR-LR Image Pairs**
-1. [Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Reslution on Real Data](https://arxiv.org/abs/1809.06420v2), TPAMI2019
-2. [Toward Real-World Single Image Super-Resolution: A New Benchmark and A New Model](http://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Toward_Real-World_Single_Image_Super-Resolution_A_New_Benchmark_and_a_ICCV_2019_paper.html),ICCV2019
-3. [Camera Lens Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Camera_Lens_Super-Resolution_CVPR_2019_paper), CVPR2019 
-4. [Zoom to Learn, Learn to Zoom](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Zoom_to_Learn_Learn_to_Zoom_CVPR_2019_paper.html), CVPR2019 
-- **Based on the simulated degradation method**
-1. [Blind Super-Resolution with Iterative Kernel Corrections](http://openaccess.thecvf.com/content_CVPR_2019/html/Gu_Blind_Super-Resolution_With_Iterative_Kernel_Correction_CVPR_2019_paper.html), CVPR2019
-2. [Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Plug-And-Play_Super-Resolution_for_Arbitrary_Blur_Kernels_CVPR_2019_paper.html), CVPR2019
-3. [Blind Super-Resolution Kernel Estimation using an Internal-GAN](http://papers.nips.cc/paper/8321-blind-super-resolution-kernel-estimation-using-an-internal-gan), NeurIPS2019
-4. [Kernel Modeling Super-Resolution on Real Low-Resolution Images](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhou_Kernel_Modeling_Super-Resolution_on_Real_Low-Resolution_Images_ICCV_2019_paper.html), ICCV2019
 
 ## Author
 EricHym (Yongming He)  
