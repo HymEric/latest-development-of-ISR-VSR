@@ -23,7 +23,10 @@
 Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zhihu.com/?target=https%3A//arxiv.org/abs/1711.06077)
 
 ## Latest survey
-arXiv2019: ["Deep Learning for Image Super-resolution: A Survey"](https://arxiv.org/abs/1902.06068)
+- [Deep Learning for Image Super-resolution: A Survey](https://arxiv.org/abs/1902.06068), arXiv [Submitted on 16 Feb 2019 (v1), last revised 8 Feb 2020 (this version, v2)], accepted by PAMI2020
+- [A Deep Journey into Super-resolution: A survey](https://arxiv.org/abs/1904.07523), arXiv, [Submitted on 16 Apr 2019 (v1), last revised 23 Mar 2020 (this version, v3)]
+- [Deep learning methods in real‑time image super‑resolution: a survey](https://link.springer.com/article/10.1007/s11554-019-00925-3), Journal of Real-Time Image Processing2020 
+- [Survey on Single Image based Super-resolution—Implementation Challenges and Solutions](https://link.springer.com/article/10.1007/s11042-019-08254-0), Multimedia Tools and Applications2020
 
 ## Upscale method
 - Dconvolution: ["Deconvolutional networks"](https://ftp.cs.nyu.edu/~fergus/papers/matt_cvpr10.pdf)
