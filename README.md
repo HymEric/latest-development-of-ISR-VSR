@@ -71,6 +71,9 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
 
 ##### In 2020
+- TTSR, [Learning Texture Transformer Network for Image Super-Resolution](https://arxiv.org/abs/2006.04139), **CVPR2020**, [proposed a transformer-based model to do SR, texture transformer]  
+[codes-wait]
+
 - CutBlur, [Rethinking Data Augmentation for Image Super-resolution: A Comprehensive Analysis and a New Strategy](https://arxiv.org/abs/2004.00448), **CVPR2020**, [new data augmentation method called CutBlur, it not only can tackle SR but other low-level tack like denoising and artifact ramoval, cut-and-paste based on patch, let model to know where to SR and how to SR]  
 [pytorch-codes](https://github.com/clovaai/cutblur)
 
