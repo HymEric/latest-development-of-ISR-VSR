@@ -71,6 +71,9 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
 
 ##### In 2020
+- [Invertible Image Rescaling](https://arxiv.org/abs/2005.05650), **ECCV2020**, [another method to get more information in the sacaling phase, invertible NN, flow-based, wavelet transform]  
+[codes](https://github.com/pkuxmq/Invertible-Image-Rescaling)
+
 - IGNN, [Cross-Scale Internal Graph Neural Network for Image Super-Resolution](https://arxiv.org/abs/2006.16673), **arXiv2020**, [first use the graph neural network, graph construction and patch aggreagation module, find the k similar neighbor patch]  
 [codes](https://github.com/sczhou/IGNN)
 
