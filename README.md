@@ -71,6 +71,9 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
 
 ##### In 2020
+- IGNN, [Cross-Scale Internal Graph Neural Network for Image Super-Resolution](https://arxiv.org/abs/2006.16673), **arXiv2020**, [first use the graph neural network, graph construction and patch aggreagation module, find the k similar neighbor patch]  
+[codes](https://github.com/sczhou/IGNN)
+
 - TTSR, [Learning Texture Transformer Network for Image Super-Resolution](https://arxiv.org/abs/2006.04139), **CVPR2020**, [proposed a transformer-based model to do SR, texture transformer]  
 [codes-wait]
 
