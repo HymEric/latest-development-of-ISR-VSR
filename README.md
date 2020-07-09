@@ -219,6 +219,10 @@ Sorted by year and the format is: abbreviation, paper title, publicaiton, [highl
 ## Video Super-Resolution
 Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
 
+##### In 2020
+- STVSR, [Zooming Slow-Mo: Fast and Accurate One-Stage Space-Time Video Super-Resolution](https://arxiv.org/abs/2002.11616), **CVPR2020**, [two task but with one stage, video frame interpolation, bidirectional deformable convLSTM]  
+[Pytorch-codes](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020)
+
 ##### In 2019
 - RBPN, [Recurrent Back-Projection Network for Video Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Haris_Recurrent_Back-Projection_Network_for_Video_Super-Resolution_CVPR_2019_paper.html), **CVPR2019**, [recurrent encoder-decoder module]  
 [Pytorch-codes](https://github.com/alterzero/RBPN-PyTorch)
