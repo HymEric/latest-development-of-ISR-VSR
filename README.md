@@ -71,6 +71,14 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
 
 ##### In 2020
+- [Coarse-to-fine cnn for image super-resolution](https://ieeexplore.ieee.org/abstract/document/9105085/), **IEEE TMM2020**  
+[pytorch-codes](https://github.com/hellloxiaotian/CFSRCNN)
+
+- [Journey Towards Tiny Perceptual Super-Resolution](https://arxiv.org/abs/2007.04356), **ECCV2020**
+
+- [Lightweight Image Super-Resolution with Enhanced CNN](https://arxiv.org/abs/2007.04344), **arXiv2020**, Elsevier  
+[pytorch-codes](https://github.com/hellloxiaotian/LESRCNN)
+
 - [Unpaired Image Super-Resolution using Pseudo-Supervision](http://openaccess.thecvf.com/content_CVPR_2020/html/Maeda_Unpaired_Image_Super-Resolution_Using_Pseudo-Supervision_CVPR_2020_paper.html), **CVPR2020**
 
 - [Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline](http://openaccess.thecvf.com/content_CVPR_2020/html/Liu_Single-Image_HDR_Reconstruction_by_Learning_to_Reverse_the_Camera_Pipeline_CVPR_2020_paper.html), **CVPR2020**  
