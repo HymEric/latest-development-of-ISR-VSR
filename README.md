@@ -71,6 +71,9 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
 
 ##### In 2020
+- PISR, [Learning with Privileged Information for Efficient Image Super-Resolution](https://arxiv.org/abs/2007.07524), **ECCV2020**, [use encoder and decoder in teacher, distillation, estimator module]  
+[pytorch-codes](https://github.com/cvlab-yonsei/PISR)
+
 - [Coarse-to-fine cnn for image super-resolution](https://ieeexplore.ieee.org/abstract/document/9105085/), **IEEE TMM2020**  
 [pytorch-codes](https://github.com/hellloxiaotian/CFSRCNN)
 
