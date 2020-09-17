@@ -71,6 +71,9 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
 
 ##### In 2020
+- SRFlow, [SRFlow: Learning the Super-Resolution Space with Normalizing Flow](https://arxiv.org/abs/2006.14200), **ECCV2020**  
+[codes-prepare](https://github.com/andreas128/SRFlow)
+
 - PISR, [Learning with Privileged Information for Efficient Image Super-Resolution](https://arxiv.org/abs/2007.07524), **ECCV2020**, [use encoder and decoder in teacher, distillation, estimator module]  
 [pytorch-codes](https://github.com/cvlab-yonsei/PISR)
 
