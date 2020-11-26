@@ -206,7 +206,7 @@ Sorted by year and the format is: abbreviation, paper title, publicaiton, [highl
 [pytorch](https://github.com/ai-tor/PyTorch-SRGAN)
 
 
-- EDSR, [Enhanced Deep Residual Networks for Single Image Super-Resolution](),  **CVPR2017**, [remove BN]  
+- EDSR, [Enhanced Deep Residual Networks for Single Image Super-Resolution](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/html/Lim_Enhanced_Deep_Residual_CVPR_2017_paper.html),  **CVPR2017**, [remove BN]  
 [torch](https://github.com/LimBee/NTIRE2017) |  [tensorflow](https://github.com/jmiller656/EDSR-Tensorflow) | 
 [pytorch](https://github.com/thstkdgus35/EDSR-PyTorch)
 
