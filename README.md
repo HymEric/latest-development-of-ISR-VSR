@@ -202,5 +202,86 @@ Sorted by year and the format is: abbreviation, paper title, publicaiton, [highl
 - SRDenseNet, [Image Super-Resolution Using Dense Skip Connections](http://openaccess.thecvf.com/content_iccv_2017/html/Tong_Image_Super-Resolution_Using_ICCV_2017_paper.html), **ICCV2017**, [add dense block to model]  
 [pytorch-codes](https://github.com/wxywhu/SRDenseNet-pytorch)
 
+- SRGAN, [Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network](http://openaccess.thecvf.com/content_cvpr_2017/html/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.html), **CVPR2017**, [first proposed GAN]  
+[tensorflow](https://github.com/zsdonghao/SRGAN) | [tensorflow](https://github.com/buriburisuri/SRGAN) | 
+[torch](https://github.com/junhocho/SRGAN) | 
+[caffe](https://github.com/ShenghaiRong/caffe_srgan) | 
+[tensorflow](https://github.com/brade31919/SRGAN-tensorflowhttps://RGAN-tensorflow) | 
+[keras](https://github.com/titu1994/Super-Resolution-using-Generative-Adversarial-Networks) | 
+[pytorch](https://github.com/ai-tor/PyTorch-SRGAN)
 
-- SRGAN, [Photo-Realistic Single
+
+- EDSR, [Enhanced Deep Residual Networks for Single Image Super-Resolution](http://openaccess.thecvf.com/content_cvpr_2017_workshops/w12/html/Lim_Enhanced_Deep_Residual_CVPR_2017_paper.html),  **CVPR2017**, [remove BN]  
+[torch](https://github.com/LimBee/NTIRE2017) |  [tensorflow](https://github.com/jmiller656/EDSR-Tensorflow) | 
+[pytorch](https://github.com/thstkdgus35/EDSR-PyTorch)
+
+
+##### In 2016
+- FSRCNN, [Accelerating the Super-Resolution Convolutional Neural Network](https://arxiv.org/abs/1608.00367), **ECCV2016**, [deconvolution fine-tuninig last deconv, Develop SRCNN, add deconv, input image don't need to upsample by bicubic and fine-tune accelerate]  
+[official-matlab-caffe-codes](http://mmlab.ie.cuhk.edu.hk/projects/FSRCNN.html)
+
+
+- ESPCN, [Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network](https://arxiv.org/abs/1609.05158), **CVPR2016**, [sub-pixel Tanh instead Relu Real time, A new way to upsamping: sub-pixel]  
+[tensorflow-codes](https://github.com/drakelevy/ESPCN-TensorFlow) | [pytorch-codes](https://github.com/leftthomas/ESPCN) | [caffe-codes](https://github.com/wangxuewen99/Super-Resolution/tree/master/ESPCN)
+
+
+- VDSR, [Accurate Image Super-Resolution Using Very Deep Convolutional Networks](), **CVPR2016**, [residual network, deep, Add residual, padding 0 every layer, scale mixture training]  
+[project](https://cv.snu.ac.kr/research/VDSR/) | [caffe](https://github.com/huangzehao/caffe-vdsr) | [tensorflow](https://github.com/Jongchan/tensorflow-vdsr) | [pytorch](https://github.com/twtygqyy/pytorch-vdsr)
+
+
+- DRCN, [Deeply-Recursive Convolutional Network for Image Super-Resolution](https://arxiv.org/abs/1511.04491), **CVPR2016**, [Recursive Neural Network, Learn RNN to add recursive and skip input image is interpolation image]  
+[project](https://cv.snu.ac.kr/research/DRCN/) | [tensorflow](https://github.com/jiny2001/deeply-recursive-cnn-tf)
+
+
+- RED, [Image Restoration Using Convolutional Auto-encoders with Symmetric Skip Connections](https://arxiv.org/abs/1606.08921), **NIPS2016**, [Encoder-decoder and skip]  
+\-\-\- 
+
+##### In 2014
+- SRCNN, [Image Super-Resolution Using Deep Convlutional Network](https://arxiv.org/abs/1501.00092), **ECCV2014**, [Loss:MSE CNN, has two version 2014 and ex-2016. Milestone in deep learning about SR.Simple three CNN network: patch extraction and representation, non-linear mapping and reconstraction]  
+[keras-codes](https://github.com/qobilidop/srcnn)
+
+## Video Super-Resolution
+Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
+
+##### In 2020
+- STVSR, [Zooming Slow-Mo: Fast and Accurate One-Stage Space-Time Video Super-Resolution](https://arxiv.org/abs/2002.11616), **CVPR2020**, [two task but with one stage, video frame interpolation, bidirectional deformable convLSTM]  
+[Pytorch-codes](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020)
+
+##### In 2019
+- RBPN, [Recurrent Back-Projection Network for Video Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Haris_Recurrent_Back-Projection_Network_for_Video_Super-Resolution_CVPR_2019_paper.html), **CVPR2019**, [recurrent encoder-decoder module]  
+[Pytorch-codes](https://github.com/alterzero/RBPN-PyTorch)
+
+
+- EDVR, [EDVR: Video Restoration with Enhanced Deformable Convolutional Networks](https://arxiv.org/abs/1905.02716), **CVPR2019**, [PCD:Pyramid, Cascading and Deformable (PCD) alignment module, TSA:Temporal and Spatial Attention fusion module, proposed two specify modules: PCD and TSA. PCD is for alignment and STA is for fusion. With deformable convolution, self-ensemble and two-stage redfine, it  wins all four tracks in the NTIRE19 Challenges for Video]  
+[Pytorch-codes](https://github.com/xinntao/EDVR)
+
+##### In 2018
+- FRVSR, [Frame-Recurrent Video Super-Resolution](http://openaccess.thecvf.com/content_cvpr_2018/html/Sajjadi_Frame-Recurrent_Video_Super-Resolution_CVPR_2018_paper.html), **CVPR2018**, [use a recurrent approach that passes the previously estimated HR frame as an input for the following iteration. Model includes Fnet and SRNet, Flow estimation, Upscaling flow, Warping previous output, Mapping to LR space, Super-Resolution Warp]  
+[official-codes](https://github.com/msmsajjadi/FRVSR)
+
+
+- DUF, [Deep Video Super-Resolution Network Using Dynamic Upsampling Filters Without Explicit Motion Compensation](http://openaccess.thecvf.com/content_cvpr_2018/html/Jo_Deep_Video_Super-Resolution_CVPR_2018_paper.html), **CVPR2018**, [Dynamic upsampling filter, Residual Learning, propose a novel end-to-end deep neural network that generates dynamic upsampling filters and a residual image, which are computed depending on the local spatio-temporal neighborhood of each pixel to avoid explicit motion compensation. The model includes filter generation network and residual generation network]  
+[tensorflow-codes](https://github.com/HymEric/VSR-DUF-Reimplement) | 
+[tensorflow](https://github.com/yhjo09/VSR-DUF)
+
+##### In 2017
+- VESPCN, [Real-Time Video Super-Resolution with Spatio-Temporal Networks and Motion Compensation](http://openaccess.thecvf.com/content_cvpr_2017/html/Caballero_Real-Time_Video_Super-Resolution_CVPR_2017_paper.html), **CVPR2017**, [sub-pixel for video compensation transformer, compensation transformer: compare early fusion, slow fusion and 3D conv]  
+[pytorch](https://github.com/JuheonYi/VESPCN-PyTorch) | [tensorflow](https://github.com/JuheonYi/VESPCN-tensorflow)
+
+
+- SPMC, [Detail-revealing Deep Video Super-resolution](http://openaccess.thecvf.com/content_iccv_2017/html/Tao_Detail-Revealing_Deep_Video_ICCV_2017_paper.html), **ICCV2017**, [SPMC:  Subpixel Motion Compensation layer, show that proper frame alignment and motion compensation is crucial for achieving high quality results, It includes motion estimate, SPMC layer and Detail Fusion Net]  
+[tensorflow-codes](https://github.com/jiangsutx/SPMC_VideoSR)
+
+##### In 2015
+- BRCN, [Bidirectional Recurrent Convolutional Networks for Multi-Frame Super-Resolution](http://papers.nips.cc/paper/5778-bidirectional-recurrent-convolutional-networks-for-multi-frame-super-resolution), **NIPS2015**, [Two sub-network and three kind conv, use recurrent, It has three conv. Feedforward conv, recurrent conv and conditioned conv. And two sub-network: forward and backward sub-network]  
+[matlab-codes](https://github.com/linan142857/BRCN)
+
+## Library 
+- [A collection of state-of-the-art video or single-image super-resolution architectures, reimplemented in tensorflow.](https://github.com/LoSealL/VideoSuperResolution) which has most great papers/models about ISR and VSR. Include some useful tools: some models with pre-trained weights, link of datasets, VSR package which offers a training and data processing framework based on TF or pytorch.
+
+
+- [MMSR](https://github.com/open-mmlab/mmsr), Open MMLab Image and Video Super-Resolution Toolbox, , including SRResNet, SRGAN, ESRGAN, EDVR, etc.
+
+## Related Research institutions
+- [X-Pixel Group](http://xpixel.group/publication.html), CUHK, NTU, SIAT, SenseTime Our vision is to make the world look clearer
+
