@@ -48,7 +48,7 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 ## Real-Word Image Super-Resolution
  - **Based on the proposed HR-LR Image Pairs**
 1. [Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Reslution on Real Data](https://arxiv.org/abs/1809.06420v2), TPAMI2019
-2. [Toward Real-World Single Image Super-Resolution: A New Benchmark and A New Model](http://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Toward_Real-World_Single_Image_Super-Resolution_A_New_Benchmark_and_a_ICCV_2019_paper.html),ICCV2019
+2. [Toward Real-World Single Image Super-Resolution: A New Benchmark and A New Model](http://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Toward_Real-World_Single_Image_Super-Resolution_A_New_Benchmark_and_a_ICCV_2019_paper.html), ICCV2019
 3. [Camera Lens Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Camera_Lens_Super-Resolution_CVPR_2019_paper), CVPR2019 
 4. [Zoom to Learn, Learn to Zoom](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Zoom_to_Learn_Learn_to_Zoom_CVPR_2019_paper.html), CVPR2019 
 - **Based on the simulated degradation method**
@@ -56,6 +56,11 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 2. [Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Plug-And-Play_Super-Resolution_for_Arbitrary_Blur_Kernels_CVPR_2019_paper.html), CVPR2019
 3. [Blind Super-Resolution Kernel Estimation using an Internal-GAN](http://papers.nips.cc/paper/8321-blind-super-resolution-kernel-estimation-using-an-internal-gan), NeurIPS2019
 4. [Kernel Modeling Super-Resolution on Real Low-Resolution Images](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhou_Kernel_Modeling_Super-Resolution_on_Real_Low-Resolution_Images_ICCV_2019_paper.html), ICCV2019
+5. [Unsupervised Degradation Representation Learning for Blind Super-Resolution](https://arxiv.org/abs/2104.00416), CVPR2021  
+[pytorch-codes](https://github.com/LongguangWang/DASR)
+6. [Flow-based Kernel Prior with Application to Blind Super-Resolution](https://arxiv.org/abs/2103.15977), CVPR2021  
+[pytorch-codes](https://github.com/JingyunLiang/FKP)
+
 
 ## Stereo Image Super-Resolution
 1. [Enhancing the Spatial Resolution of Stereo Images using a Parallax Prior](http://openaccess.thecvf.com/content_cvpr_2018/html/Jeon_Enhancing_the_Spatial_CVPR_2018_paper.html), CVPR2018
@@ -70,8 +75,21 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 ## Image Super-Resolution
 Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
 
+##### In 2021
+- GLEAN, [GLEAN: Generative Latent Bank for Large-Factor Image Super-Resolution](https://arxiv.org/abs/2012.00739), **CVPR2021 Oral**, [encoder-bank-decoder, StyleGAN as generative latent bank]  
+[pytorch-codes](https://github.com/open-mmlab/mmediting)
+
+- ClassSR, [ClassSR: A General Framework to Accelerate Super-Resolution Networks by Data Characteristic](https://arxiv.org/abs/2103.04039), **CVPR2021**  
+[pytorch-codes](https://github.com/Xiangtaokong/ClassSR)
+
+- LIIF, [Learning Continuous Image Representation with Local Implicit Image Function](https://arxiv.org/abs/2012.09161), **CVPR2021**  
+[pytorch-codes](https://github.com/yinboc/liif)
+
+- AdderSR, [AdderSR: Towards Energy Efficient Image Super-Resolution](https://arxiv.org/abs/2009.08891), **CVPR2021**  
+
+
 ##### In 2020
-- IPT, [Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364), **arXiv**, [low-level transformer]  
+- IPT, [Pre-Trained Image Processing Transformer](https://arxiv.org/abs/2012.00364), **arXiv2020**, [low-level transformer]  
 [waiting]() 
 
 - IGNN, [Cross-Scale Internal Graph Neural Network for Image Super-Resolution](http://proceedings.neurips.cc/paper/2020/hash/23ad3e314e2a2b43b4c720507cec0723-Abstract.html), **NeurIPS2020**, [graph related, patch match]  
