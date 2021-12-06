@@ -261,6 +261,11 @@ Sorted by year and the format is: abbreviation, paper title, publicaiton, [highl
 ## Video Super-Resolution
 Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
 
+##### In 2021
+- RealBasicVSR, [Investigating Tradeoffs in Real-World Video Super-Resolution](https://arxiv.org/abs/2111.12704), **arXiv2021**, [cleaning module, new videoLQ dataset, real VSR]   
+[Pytorch-codes](https://github.com/ckkelvinchan/RealBasicVSR)
+- 
+
 ##### In 2020
 - STVSR, [Zooming Slow-Mo: Fast and Accurate One-Stage Space-Time Video Super-Resolution](https://arxiv.org/abs/2002.11616), **CVPR2020**, [two task but with one stage, video frame interpolation, bidirectional deformable convLSTM]  
 [Pytorch-codes](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020)
