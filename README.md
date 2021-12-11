@@ -47,18 +47,24 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 
 ## Real-Word Image Super-Resolution
  - **Based on the proposed HR-LR Image Pairs**
-1. [Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Reslution on Real Data](https://arxiv.org/abs/1809.06420v2), TPAMI2019
-2. [Toward Real-World Single Image Super-Resolution: A New Benchmark and A New Model](http://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Toward_Real-World_Single_Image_Super-Resolution_A_New_Benchmark_and_a_ICCV_2019_paper.html), ICCV2019
-3. [Camera Lens Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Camera_Lens_Super-Resolution_CVPR_2019_paper), CVPR2019 
-4. [Zoom to Learn, Learn to Zoom](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Zoom_to_Learn_Learn_to_Zoom_CVPR_2019_paper.html), CVPR2019 
+1. [Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data](https://arxiv.org/abs/2107.10833), ICCVW2021  
+[codes](https://github.com/xinntao/Real-ESRGAN)
+
+2. [Toward Bridging the Simulated-to-Real Gap: Benchmarking Super-Reslution on Real Data](https://arxiv.org/abs/1809.06420v2), TPAMI2019
+3. [Toward Real-World Single Image Super-Resolution: A New Benchmark and A New Model](http://openaccess.thecvf.com/content_ICCV_2019/html/Cai_Toward_Real-World_Single_Image_Super-Resolution_A_New_Benchmark_and_a_ICCV_2019_paper.html), ICCV2019
+4. [Camera Lens Super-Resolution](http://openaccess.thecvf.com/content_CVPR_2019/html/Chen_Camera_Lens_Super-Resolution_CVPR_2019_paper), CVPR2019 
+5. [Zoom to Learn, Learn to Zoom](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Zoom_to_Learn_Learn_to_Zoom_CVPR_2019_paper.html), CVPR2019 
 - **Based on the simulated degradation method**
-1. [Blind Super-Resolution with Iterative Kernel Corrections](http://openaccess.thecvf.com/content_CVPR_2019/html/Gu_Blind_Super-Resolution_With_Iterative_Kernel_Correction_CVPR_2019_paper.html), CVPR2019
-2. [Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Plug-And-Play_Super-Resolution_for_Arbitrary_Blur_Kernels_CVPR_2019_paper.html), CVPR2019
-3. [Blind Super-Resolution Kernel Estimation using an Internal-GAN](http://papers.nips.cc/paper/8321-blind-super-resolution-kernel-estimation-using-an-internal-gan), NeurIPS2019
-4. [Kernel Modeling Super-Resolution on Real Low-Resolution Images](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhou_Kernel_Modeling_Super-Resolution_on_Real_Low-Resolution_Images_ICCV_2019_paper.html), ICCV2019
-5. [Unsupervised Degradation Representation Learning for Blind Super-Resolution](https://arxiv.org/abs/2104.00416), CVPR2021  
+6. [Finding Discriminative Filters for Specific Degradations in Blind Super-Resolution](https://arxiv.org/abs/2108.01070), NeurIPS2021  
+[codes](https://github.com/TencentARC/FAIG)
+
+7. [Blind Super-Resolution with Iterative Kernel Corrections](http://openaccess.thecvf.com/content_CVPR_2019/html/Gu_Blind_Super-Resolution_With_Iterative_Kernel_Correction_CVPR_2019_paper.html), CVPR2019
+8. [Deep Plug-and-Play Super-Resolution for Arbitrary Blur Kernels](http://openaccess.thecvf.com/content_CVPR_2019/html/Zhang_Deep_Plug-And-Play_Super-Resolution_for_Arbitrary_Blur_Kernels_CVPR_2019_paper.html), CVPR2019
+9. [Blind Super-Resolution Kernel Estimation using an Internal-GAN](http://papers.nips.cc/paper/8321-blind-super-resolution-kernel-estimation-using-an-internal-gan), NeurIPS2019
+10. [Kernel Modeling Super-Resolution on Real Low-Resolution Images](http://openaccess.thecvf.com/content_ICCV_2019/html/Zhou_Kernel_Modeling_Super-Resolution_on_Real_Low-Resolution_Images_ICCV_2019_paper.html), ICCV2019
+11. [Unsupervised Degradation Representation Learning for Blind Super-Resolution](https://arxiv.org/abs/2104.00416), CVPR2021  
 [pytorch-codes](https://github.com/LongguangWang/DASR)
-6. [Flow-based Kernel Prior with Application to Blind Super-Resolution](https://arxiv.org/abs/2103.15977), CVPR2021  
+12. [Flow-based Kernel Prior with Application to Blind Super-Resolution](https://arxiv.org/abs/2103.15977), CVPR2021  
 [pytorch-codes](https://github.com/JingyunLiang/FKP)
 
 
@@ -264,7 +270,15 @@ Sorted by year and the format is: abbreviation, paper title, publicaiton, [highl
 ##### In 2021
 - RealBasicVSR, [Investigating Tradeoffs in Real-World Video Super-Resolution](https://arxiv.org/abs/2111.12704), **arXiv2021**, [cleaning module, new videoLQ dataset, real VSR]   
 [Pytorch-codes](https://github.com/ckkelvinchan/RealBasicVSR)
-- 
+
+- VSR-transformer, [Video Super-Resolution Transformer](https://arxiv.org/abs/2106.06847), **arXiv2021**, [transformer in VSR]  
+[Pytorch-codes](https://github.com/caojiezhang/VSR-Transformer)
+
+- GLEAN, [Glean: Generative latent bank for large-factor image super-resolution](https://arxiv.org/abs/2012.00739), **CVPR2021 oral**, [Generative LatEnt bANk(GLEAN), encoder-bank-decoder architecture with multiresolution skip connections]  
+[Pytorch-codes](https://github.com/ckkelvinchan/GLEAN)
+
+- BasicVSR, [BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond](https://arxiv.org/abs/2012.02181), **CVPR2021**, [BasicVSR architecture, research on essential component]  
+[Pytorch-codes](https://github.com/ckkelvinchan/BasicVSR-IconVSR)
 
 ##### In 2020
 - STVSR, [Zooming Slow-Mo: Fast and Accurate One-Stage Space-Time Video Super-Resolution](https://arxiv.org/abs/2002.11616), **CVPR2020**, [two task but with one stage, video frame interpolation, bidirectional deformable convLSTM]  
@@ -303,8 +317,9 @@ Sorted by year and the format is: abbreviation, paper title, publicaiton, [highl
 - [A collection of state-of-the-art video or single-image super-resolution architectures, reimplemented in tensorflow.](https://github.com/LoSealL/VideoSuperResolution) which has most great papers/models about ISR and VSR. Include some useful tools: some models with pre-trained weights, link of datasets, VSR package which offers a training and data processing framework based on TF or pytorch.
 
 
-- [MMSR](https://github.com/open-mmlab/mmsr), Open MMLab Image and Video Super-Resolution Toolbox, , including SRResNet, SRGAN, ESRGAN, EDVR, etc.
+- [MMEditing](https://github.com/open-mmlab/mmediting), MMEditing is an open source image and video editing toolbox based on PyTorch. It is a part of the OpenMMLab project
 
 ## Related Research institutions
 - [X-Pixel Group](http://xpixel.group/publication.html), CUHK, NTU, SIAT, SenseTime Our vision is to make the world look clearer
+
 
