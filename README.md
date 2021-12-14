@@ -82,6 +82,8 @@ Suggestion in SR: CVPR2018 ["The Perception-Distortion Tradeoff"](http://link.zh
 Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
 
 ##### In 2021
+- [A Practical Contrastive Learning Framework for Single Image Super-Resolution](https://arxiv.org/abs/2111.13924), **arXiv2021**, [contrastive, discriminator, data-augment, task-generalizable embedding]
+
 - GLEAN, [GLEAN: Generative Latent Bank for Large-Factor Image Super-Resolution](https://arxiv.org/abs/2012.00739), **CVPR2021 Oral**, [encoder-bank-decoder, StyleGAN as generative latent bank]  
 [pytorch-codes](https://github.com/open-mmlab/mmediting)
 
