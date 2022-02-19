@@ -269,6 +269,12 @@ Sorted by year and the format is: abbreviation, paper title, publicaiton, [highl
 ## Video Super-Resolution
 Sorted by year and the format is: abbreviation, paper title, publicaiton, [highlights], related source code. 
 
+#### In 2022
+- DAP, [Fast Online Video Super-Resolution with Deformable Attention Pyramid](https://arxiv.org/abs/2202.01731), **arXiv2022**, [deformable attention pyramid, fast] 
+
+- Self-Blind-VSR，[Self-Supervised Deep Blind Video Super-Resolution](https://arxiv.org/abs/2201.07422), **arXiv2022**, [for real bind vsr without HR, auxiliary paired data]  
+[project](https://github.com/csbhr/Self-Blind-VSR)
+
 ##### In 2021
 - RealBasicVSR, [Investigating Tradeoffs in Real-World Video Super-Resolution](https://arxiv.org/abs/2111.12704), **arXiv2021**, [cleaning module, new videoLQ dataset, real VSR]   
 [Pytorch-codes](https://github.com/ckkelvinchan/RealBasicVSR)
